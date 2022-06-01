@@ -481,7 +481,6 @@ about() {
 		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
 		${GREEN}Social   ${RED}:  ${CYAN}https://github.com/kamanati
 		${GREEN}Version  ${RED}:  ${ORANGE}3.0
-                am start --user 0 -n com.instagram.android/com.instagram.android.activity.MainTabActivity -d https://instagram.com/hasanfq6 &> /dev/null;
 		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
 								  DarkSecDevelopers,Mustakim Ahmed,1RaY-1,AliMilani ${RESETBG}
 
@@ -489,12 +488,9 @@ about() {
 		${CYAN}This Tool is made for educational purpose only ${RED}!${WHITE}
 		${CYAN}Author will not be responsible for any misuse of this toolkit ${RED}!${WHITE}
 
-		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORANGE} Exit
-
-	EOF
-
+		${RED}[${WHITE}00${RED}]${ORANGE} Main Menu     ${RED}[${WHITE}99${RED}]${ORAN
 	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
-
+        am start --user 0 -n com.instagram.android/com.instagram.android.activity.MainTabActivity -d https://instagram.com/hasanfq6 &> /dev/null;
 	case $REPLY in 
 		99)
 			msg_exit;;
