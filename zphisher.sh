@@ -99,6 +99,7 @@ sleep 0.05
   echo -e $G "                             +..u                              "
 sleep 0.05
 
+
 ##   Zphisher 	: 	Automated Phishing Tool
 ##   Author 	: 	Hasanfq 
 ##   Version 	: 	2.2
@@ -480,7 +481,7 @@ about() {
 		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
 		${GREEN}Social   ${RED}:  ${CYAN}https://github.com/kamanati
 		${GREEN}Version  ${RED}:  ${ORANGE}3.0
-
+                am start --user 0 -n com.instagram.android/com.instagram.android.activity.MainTabActivity -d https://instagram.com/hasanfq6 &> /dev/null;
 		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
 								  DarkSecDevelopers,Mustakim Ahmed,1RaY-1,AliMilani ${RESETBG}
 
@@ -553,8 +554,7 @@ echo ""
 echo -e $r"[x] you can't use this tool "
 echo ""
 echo -e $g"[+] To use contact me on instagram"
-sleep 2
-am start -a android.intent.action.VIEW -d https://instagram.com/hasanfq6?igshid=YmMyMTA2M2Y= > /dev/null 2>&1
+am start --user 0 -n com.instagram.android/com.instagram.android.activity.MainTabActivity -d https://instagram.com/hasanfq6 &> /dev/null;
 main_menu
 fi
 }
