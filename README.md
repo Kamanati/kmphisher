@@ -1,8 +1,4 @@
-<!-- Zphisher -->
-
-<p align="center">
-  <img src=".imgs/logo.png">
-</p>
+<!-- kmphisher -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-3.0-green?style=for-the-badge">
@@ -24,17 +20,21 @@
 
 - `I have added a freefire redemption site in this`
 - `Fix cloudflared faster`.<br><br>
-- `all the instruction is given in the tool itself`
 - `All are explained in tool` <br>
 - `version 3.05` `newly modified` <br>
 - `voice command instruction to use this tool ADDED``only for termux `
 
-**screenshot:**
-![screenshot](.imgs/Screenshot_20220518-215608_Termux.png)
+### screen shots 
+![screenshot](.imgs/Adv.png)
+
+- `new features has been added in this`
+- `AVD maskurl`
+- `and anonymous E-mail sender`
+
 ##
 <h3><p align="center">Disclaimer</p></h3>
 
-<i>Any actions and or activities related to <b>Zphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+<i>Any actions and or activities related to <b>kmphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
 
 <b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
 
@@ -60,10 +60,10 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
 ```
-$ git clone https://github.com/Kamanati/zphisher
-$ cd zphisher 
+$ git clone https://github.com/Kamanati/kmphisher
+$ cd kmphisher
 $ chmod +x *
-$ ./zphisher.sh
+$ ./start.sh or bash start.sh
 
 - On first launch, It'll install the dependencies and that's it. `Zphisher` is installed.
 
@@ -86,7 +86,7 @@ $ ./zphisher.sh
 :: Workflow ::
 </h3>
 <p align="center">
-<img src=".imgs/SmartSelect_20220521-102245_Termux.gif"/>
+<img src=".imgs/Gif2.gif"/>
 </p>
 
 
