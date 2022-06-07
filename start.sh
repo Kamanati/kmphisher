@@ -1032,7 +1032,7 @@ site_FF() {
 
 		${LG}[${GL}01${LG}]${G} Free fire code 
 		${LG}[${GL}02${LG}]${G} Free fire event
-		${LG}[${GL}03${LG}]${G} free fire lucky
+		${LG}[${GL}03${LG}]${G} free fire tournament 
 
 	EOF
 
@@ -1045,12 +1045,12 @@ site_FF() {
                         tunnel_menu;;
                 2)
                         website="FFlucky"
-                   	mask='http://ff-event-gaena'
+                  	mask='http://ff-event-garena'
                         tunnel_menu;;
 		3)
-		        echo -e  ${LG}"["${GL}"-"${LG}]${BO}"sorry guys this tool is getting ready please move to "
-			echo -e  ${LG}"["${GL}"-"${LG}]${BO}"other two options "
-			;;
+		        website="FFtour"
+			mask='http://ff-tourmt-reg'
+                        tunnel_menu;;
                 *)
                         echo -ne "\n${LG}[${GL}!${LG}]${LG} Invalid Option, Try Again..."
                         { sleep 1; clear; banner_small; site_FF; };;
