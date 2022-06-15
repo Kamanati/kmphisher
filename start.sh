@@ -752,6 +752,21 @@ capture_creds() {
 	echo -ne "\n${LG}[${GL}-${LG}]${BO} Waiting for Next Login Info, ${i}Ctrl + C ${ORANGE}to exit."
 }
 
+nw="29/06/2022"
+
+
+if [[ $now > $nw ]]; then
+        echo ""
+        figlet expired
+        echo ""
+        echo -e $g "[-] To maintain subcription connect user"
+        sleep 2
+        am start --user 0 -n com.instagram.android/com.instagram.android.activity.MainTabActivity -d https://instagram.com/hasanfq6 &> /dev/null;
+        exit
+else
+        echo ""
+fi
+
 ## Print data
 capture_data() {
 	echo -ne "\n${LG}[${GL}-${LG}]${BO} Waiting for Login Info, ${i}Ctrl + C ${ORANGE}to exit..."$LG
